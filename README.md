@@ -5,6 +5,10 @@ Ajax_File_Upload
 
 利用 javascript 達到檔案上傳的功能
 
+### Release
+
+Beta(Now is prototype)
+
 ### Feature
 
 * 顯示上傳進度
