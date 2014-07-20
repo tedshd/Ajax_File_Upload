@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dev_ver</title>
+</head>
+<body>
+    <input type="file" name="Upfile[]" id="select" class="up" multiple>
+    <a id="upload" href="javascript:">AJAX_upload</a>
+</body>
+<script src="javascripts/dev.js"></script>
+<script>
+    var upload = new uploadFiles(
+        {
+            inputFileSelector: '#select',
+            fileName: 'Upfile[]'
+        }
+    );
+    function test (e) {
+        // e.fileList;
+        console.log('test');
+        console.log('event', e);
+        console.log('detail', e.detail);
+        console.log('fileList', e.fileList);
+        console.log('bytesLoaded', e.bytesLoaded);
+        console.log('bytesTotal', e.bytesTotal);
+        console.log('percentLoaded', e.percentLoaded);
+    }
+    // document.getElementById('select').onfileSelect = test;
+    document.getElementById('select').addEventListener('selectFiles', test);
+    document.getElementById('select').addEventListener('uploadProgress', test);
+
+    // var upload = new uploadFiles(
+    //     {
+    //         inputFileNode: 'select',
+    //         fileName: 'upfile[]',
+    //         server: '/server/upload.php',
+    //         dropArea: 'body'
+    //     }
+    // );
+    // upload.addEventListener('selectFiles', function() {});
+    // upload.addEventListener('uploadError', function() {});
+    // upload.addEventListener('uploadProgress', function() {});
+    // upload.addEventListener('uploadComplete', function() {});
+    // upload.addEventListener('dragenter', function() {});
+    // upload.addEventListener('dragover', function() {});
+    // upload.addEventListener('drop', function() {});
+    // upload.addEventListener('drag', function() {});
+    // upload.upload();
+    // upload.cancel();
+
+</script>
+</html>
