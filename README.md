@@ -13,11 +13,11 @@ Beta(Now is prototype)
 
 * 顯示上傳進度
 * 多檔上傳
-* 取消上傳
-* 拖拉上傳
-* **[斷點續傳??](http://www.resumablejs.com/)**
-* chrome 上傳資料夾
-* 盡可能跨 browser(for IE8)
+* ~~取消上傳~~
+* ~~拖拉上傳~~
+* ~~**[斷點續傳??](http://www.resumablejs.com/)**~~
+* ~~chrome 上傳資料夾~~
+* ~~盡可能跨 browser(for IE8)~~
 * 不依攋任一 javascript library
 
 ### Develop
