@@ -29,6 +29,10 @@ Beta(Now is prototype)
 * 處理拖拉資料夾
 * 處理預設樣式
 
+### DevLog
+
+[Log & note](http://tedshd.logdown.com/posts/153606-javascript-file-upload)
+
 ### Issue
 
 * [FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData)
