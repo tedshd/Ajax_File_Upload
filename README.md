@@ -39,12 +39,24 @@ Beta(Now is prototype)
   * AJAX 上傳(IE10 以上)
   * IE 利用 iframe 實作
 
-#### Attribute
+#### Usage
 
-* inputFileNode(input type file element)
+```javascript
+var upload = new uploadFiles(
+    {
+        inputFileSelector: '#select',
+        fileName: 'Upfile[]'
+    }
+);
+
+```
+
+#### Parameter
+
+* inputFileSelector(input type file element)
 * fileName(```name=""```)
-* server(the file upload to server url)
-* dropArea(set the drop area)
+* ~~server(the file upload to server url)~~
+* ~~dropArea(set the drop area)~~
 
 #### Method
 
